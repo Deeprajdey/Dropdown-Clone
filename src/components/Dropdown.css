@@ -1,0 +1,51 @@
+.myDropdown {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #495057;
+}
+.myDropdown h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-bottom: 1rem;
+}
+.myDropdown input {
+  width: 20rem;
+  padding: 1rem 3rem;
+  border: 1px solid #868e96;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  color: #868e96;
+}
+.myDropdown input:focus {
+  outline: none;
+}
+.myDropdown > box {
+  width: 18rem;
+  background-color: white;
+  padding: 1rem;
+}
+.myDropdown li {
+  font-size: 1.4rem;
+  text-decoration: none;
+  list-style: none;
+  margin: 1rem 0;
+  min-width: 8rem;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  background-color: blue;
+  border-radius: 20px;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+.myDropdown span {
+  padding: 1rem 2rem;
+  display: inline-block;
+  margin: 1rem;
+  background-color: orangered;
+  color: white;
+  border-radius: 100px;
+}
